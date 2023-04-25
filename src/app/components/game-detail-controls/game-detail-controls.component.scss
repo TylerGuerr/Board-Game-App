@@ -1,0 +1,24 @@
+.controls {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-size: 1.25em;
+}
+
+button {
+    margin-bottom: 8px;
+    font-size: 1em;
+    padding: 25px;
+    margin: 10px;
+}
+
+.status {
+    display: flex;
+    margin: auto;
+
+    & > div:first-child {
+        margin-right: 5px;
+    }
+}
